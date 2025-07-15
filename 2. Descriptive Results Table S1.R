@@ -1,4 +1,10 @@
-
+# ============================================================================
+# Title: Modelling the Interplay Between Quality of Life and Societal Costs in 
+# Pediatric Cerebral Palsy: Individual-Level Evidence from Spain 
+# DESCRIPTIVE RESULTS
+# Supplementary Material (Table S1)
+# Date: June 2025
+# ============================================================================
 ####Table article Modelling
 # Install packages
 install.packages("gtsummary")
