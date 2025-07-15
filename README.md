@@ -1,4 +1,4 @@
-# Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs
+# Modelling Quality-of-Life-and-Costs
 Modelling the Interplay Between Quality of Life and Societal Costs in Pediatric Cerebral Palsy: Individual-Level Evidence from Spain
 
 ### Diana Marcela Nova Díaz, Paloma Arana Rivera, Sergio Aguilera Albesa, Eduardo Sánchez Iriso, Diego Rivera
