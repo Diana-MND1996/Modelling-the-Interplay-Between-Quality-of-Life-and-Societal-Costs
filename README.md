@@ -7,17 +7,10 @@ Individual-level economic models can better capture the heterogeneity of clinica
 
 This repository contains 6 R.script files containing the data and results of the article ‘Modelling the Interplay Between Quality of Life and Societal Costs in Pediatric Cerebral Palsy: Evidence at the individual level in Spain’. Each is described below:
 
-1. Data Preparation: 
-2. Descriptive Results:
-3. Variable Selection Costs:
-3.1. Cost Cerebral Palsy Models and Cross-validation Two-part Models:
-4. Quality of Life Variable Selection, Care Overload, Final Models Cross Validation:
-5. Confidence Intervals Bootstrap Modelos Supplementary Material:
-6. Graphic Predict Final Models Figure 2:
-
-7. ## 📂 Scripts incluidos
+## 📂 Scripts incluidos
 
 - [1. Data preparation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/1.%20Data%20preparation.R)
+ It contains the data previously organized and classified by variable type, preparing it for analysis and saving the final dataset for use
 - [2. Descriptive Results Table S1.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/2.%20Descriptive%20Results%20Table%20S1.R)
 - [3. Variable Selection Costs Model.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/3.%20Variable%20Selection%20Costs%20Models.R)
 - [3.1. Cost_CP_Models and Cross_validation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/3.1.%20Cost_CP_Models%20and%20Cross_validation2part.R)
