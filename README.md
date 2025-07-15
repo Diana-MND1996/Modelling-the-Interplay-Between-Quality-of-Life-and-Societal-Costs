@@ -10,8 +10,8 @@ This repository contains 6 R.script files containing the data and results of the
 ## 📂 Scripts incluidos
 
 - [1. Data preparation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/1.%20Data%20preparation.R):
- It contains the data previously organized and classified by variable type, preparing it for analysis and saving the final dataset for use
-- [2. Descriptive Results Table S1.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/2.%20Descriptive%20Results%20Table%20S1.R):This script presents the baseline characteristics of 148 individuals with cerebral palsy (CP) and their caregivers. The results are disaggregated according to the presence or absence of out-of-pocket (OOP) healthcare expenditures. It generates the output for Supplementary Table S1 of the manuscript.
+ It contains the data previously organized and classified by variable type, preparing it for analysis and saving the final dataset for use.
+- [2. Descriptive Results Table S1.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/2.%20Descriptive%20Results%20Table%20S1.R): This script presents the baseline characteristics of 148 individuals with cerebral palsy (CP) and their caregivers. The results are disaggregated according to the presence or absence of out-of-pocket (OOP) healthcare expenditures. It generates the output for Supplementary Table S1 of the manuscript.
 - [3. Variable Selection Costs Model.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/3.%20Variable%20Selection%20Costs%20Models.R)
 - [3.1. Cost_CP_Models and Cross_validation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/3.1.%20Cost_CP_Models%20and%20Cross_validation2part.R)
 - [4. QoL_var_selection_care_overlap.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/4.%20QoL_var_selection_care_overload_finalModels_CrossValidation.R)
