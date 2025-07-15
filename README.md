@@ -14,5 +14,16 @@ This repository contains 6 R.script files containing the data and results of the
 4. Quality of Life Variable Selection, Care Overload, Final Models Cross Validation:
 5. Confidence Intervals Bootstrap Modelos Supplementary Material:
 6. Graphic Predict Final Models Figure 2:
+
+7. ## 📂 Scripts incluidos
+
+- [1. Data preparation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/1.%20Data%20preparation.R)
+- [2. Descriptive Results Table S1.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/2.%20Descriptive%20Results%20Table%20S1.R)
+- [3. Variable Selection Costs Model.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/3.%20Variable%20Selection%20Costs%20Model.R)
+- [3.1. Cost_CP_Models and Cross_validation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/3.1.%20Cost_CP_Models%20and%20Cross_validation.R)
+- [4. QoL_var_selection_care_overlap.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/4.%20QoL_var_selection_care_overlap.R)
+- [5. IC_bootstrap_modelos_Supplementary.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/5.%20IC_bootstrap_modelos_Supplementary.R)
+- [6. Graphic_Predict_Final_Models_Fig2.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/6.%20Graphic_Predict_Final_Models_Fig2.R)
+
      
    
