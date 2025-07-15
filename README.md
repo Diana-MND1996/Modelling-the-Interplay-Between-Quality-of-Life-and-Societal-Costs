@@ -7,7 +7,7 @@ Individual-level economic models can better capture the heterogeneity of clinica
 
 This repository contains 6 R.script files containing the data and results of the article ‘Modelling the Interplay Between Quality of Life and Societal Costs in Pediatric Cerebral Palsy: Evidence at the individual level in Spain’. Each is described below:
 
-## 📂 Scripts incluidos
+## 📂 Included R.Scripts 
 
 - [1. Data preparation.R](https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/1.%20Data%20preparation.R):
  It contains the data previously organized and classified by variable type, preparing it for analysis and saving the final dataset for use.
