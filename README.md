@@ -1,7 +1,7 @@
 # Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs
 Modelling the Interplay Between Quality of Life and Societal Costs in Pediatric Cerebral Palsy: Individual-Level Evidence from Spain
 
-**Diana Marcela Nova Díaz, Paloma Arana Rivera, Sergio Aguilera Albesa, Eduardo Sánchez Iriso, Diego Rivera
+### Diana Marcela Nova Díaz, Paloma Arana Rivera, Sergio Aguilera Albesa, Eduardo Sánchez Iriso, Diego Rivera
 
 Individual-level economic models can better capture the heterogeneity of clinical severity, caregiving needs, and social context in pediatric cerebral palsy (CP). This study aimed to develop and validate prediction models estimating the impact of clinical, sociodemographic, socioeconomic, and quality-of-life (QoL) characteristics on disaggregated social and healthcare costs, and conversely, to examine how these characteristics and cost components influence QoL in pediatric CP in Spain.
 
