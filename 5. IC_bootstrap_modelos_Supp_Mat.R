@@ -21,16 +21,16 @@ View(data)
 # Model list
 modelos <- list(
   model_Ycare = glm(CosT_Ycare ~ SEXC + GOI + CFCS + ETIOL + MRICS +
-                      poly(Zarith_Score, 3) + z_QALYsC,
+                      Zarith_Score + z_QALYsC,
                     family = Gamma(link = "log"), data = data),
   model_SocialCost = glm(GTotCost ~ SEXP + SEXC + GMFCS + ETIOL + MRICS +
-                           poly(Zarith_Score, 3) + z_AGEP,
+                           Zarith_Score + z_AGEP,
                          data = data, family = Gamma(link = "log")),
   model_CostsCP = glm(Tot_CostCP ~ SEXP + GMFCS + GOI + SCH_SUPP + VSS + VFCS +
                         EDACS + CFCS + ETIOL + z_AGEC + z_HOUSEINCY +
                         z_QALYsA + z_QALYsC,
                       data = data, family = Gamma(link = "log")),
-  model_CostPayer = glm(Tot_CostGov ~ GMFCS + CIVISTAT + poly(Zarith_Score, 3),
+  model_CostPayer = glm(Tot_CostGov ~ GMFCS + CIVISTAT + Zarith_Score,
                         data = data, family = Gamma(link = "log")),
   model_MedCare = glm(Tot_MedCare ~ SEXC + SEXP + EDACS + z_QALYsA,
                       data = data, family = Gamma(link = "log")),
