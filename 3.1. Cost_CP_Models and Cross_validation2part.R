@@ -63,7 +63,7 @@ summary(model_gam_log@objects[[1]])
 # Ajustar el modelo GLM con familia Gamma y link log
 model_Care <- glm(
   CosT_Ycare ~ SEXC + GOI + CFCS + ETIOL + MRICS +
-    poly(Zarith_Score, 3) + z_QALYsC,
+    Zarith_Score + z_QALYsC,
   data = data,  
   family = Gamma(link = "log")
 )
@@ -76,7 +76,7 @@ summary(model_Care)
 #================================================================================================
 model_SocialCost <- glm(
   GTotCost ~ SEXP + SEXC + GMFCS + ETIOL + MRICS +
-    poly(Zarith_Score, 3) + z_AGEP,
+    Zarith_Score + z_AGEP,
   data = data,
   family = Gamma(link = "log")
 )
@@ -103,7 +103,7 @@ summary(model_CostsCP)
 #4) # Tot_CostGov--------> Costs associated with government
 #================================================================================================
 model_CostPayer <- glm(
-  Tot_CostGov ~ GMFCS + CIVISTAT + poly(Zarith_Score, 3),
+  Tot_CostGov ~ GMFCS + CIVISTAT + Zarith_Score,
   data = data,
   family = Gamma(link = "log")
 )
