@@ -33,7 +33,7 @@ dependent_vars <- c("GTotCost", "Tot_CostCP", "CosT_Ycare", "Tot_CostGov", "Tot_
 run_model <- function(dep_var) {
   formula <- as.formula(paste(dep_var, "~ z_AGEC + SEXC + z_AGEP + SEXP + EDULEVELC +
                                z_HOUSEINCY + CIVISTAT + CPT_grouped + GMFCS + GOI +
-                               LevJobCP + poly(Zarith_Score, 3) + Social_Class + z_QALYsA +
+                               LevJobCP + Zarith_Score + Social_Class + z_QALYsA +
                                SCH_SUPP + VSS + VFCS + MACS + EDACS + CFCS + z_QALYsC +
                                BFMF + ETIOL + MRICS + RESID + IMP_INDEX"))
   
@@ -64,7 +64,7 @@ CostTH <- data %>%
 best_part1 <- glmulti(
   cost_positive ~ z_AGEP + SEXP + EDULEVELC + z_QALYsC + z_QALYsA +
     z_HOUSEINCY + CIVISTAT + CPT_grouped + GMFCS + GOI +
-    LevJobCP + poly(Zarith_Score, 3) + Social_Class + SCH_SUPP + VSS +
+    LevJobCP + Zarith_Score + Social_Class + SCH_SUPP + VSS +
     VFCS + MACS + EDACS + CFCS + BFMF + ETIOL + MRICS + RESID + IMP_INDEX,
   data = CostTH,
   level = 1, method = "h", crit = "aic",
@@ -91,7 +91,7 @@ test_list <- list(
 # Base formula for glmulti
 glmulti_formula <- Tot_CostTTCPAL ~ z_AGEP + SEXP + EDULEVELC + z_QALYsC + z_QALYsA +
   z_HOUSEINCY + CIVISTAT + CPT_grouped + GMFCS + LevJobCP +
-  poly(Zarith_Score, 3) + Social_Class + SCH_SUPP + VSS +
+  Zarith_Score + Social_Class + SCH_SUPP + VSS +
   VFCS + MACS + EDACS + CFCS + BFMF + ETIOL + MRICS +
   RESID + IMP_INDEX
 
