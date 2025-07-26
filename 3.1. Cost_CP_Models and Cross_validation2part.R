@@ -182,7 +182,7 @@ summary(model_Cost_TTCPAL_gauID)
 #================================================================================================
 model_Cost_TTCPAL_gaulog <- glm(
   Tot_CostTTCPAL ~ GMFCS + LevJobCP + Social_Class + SCH_SUPP + VFCS + RESID +
-    poly(Zarith_Score, 3),
+    Zarith_Score,
   data = data_positive,  # only data with positive total cost
   family = gaussian(link = "log")
 )
@@ -252,7 +252,7 @@ for (i in 1:k_folds) {
   #================================================================================================
   gauLog_model <- glm(
     Tot_CostTTCPAL ~ GMFCS + LevJobCP + Social_Class + SCH_SUPP + VFCS + RESID +
-      poly(Zarith_Score, 3),
+      Zarith_Score,
     data = train_data,
     family = gaussian(link = "log")
   )
