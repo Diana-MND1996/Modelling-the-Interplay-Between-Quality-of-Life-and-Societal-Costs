@@ -28,11 +28,11 @@ To enhance transparency and reproducibility, this repository includes an `renv` 
 install.packages("renv")
 renv::restore()
 ```` ``` ````
----
 
 This will restore the package versions documented in the renv.lock file included in this repository. The repository also includes a session_info file with details on the R version, platform, and packages used.
 
 ---
+
 ## 📊 Data availability
 
 Finally, this repository contains the data required to replicate the R scripts and verify the results: https://github.com/Diana-MND1996/Modelling-the-Interplay-Between-Quality-of-Life-and-Societal-Costs/blob/main/costs_data.RData
