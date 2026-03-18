@@ -29,7 +29,7 @@ install.packages("renv")
 renv::restore()
 ```
 
-This will restore the package versions documented in the renv.lock file included in this repository. The repository also includes a session_info file with details on the R version, platform, and packages used.
+This will restore the package versions documented in the `renv.lock` file included in this repository. The repository also includes a session_info file with details on the R version, platform, and packages used.
 
 ---
 
